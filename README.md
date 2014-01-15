@@ -32,6 +32,8 @@ The container has all pre requisites set up to run any dashing project. Which on
 
 The startup time for this container is quite long so give it a short coffee break before trying the browser on url http://localhost:3030. The ruby bundle command takes some time to download all dependencies for the dashing project. 
 
+*The -p 3030:3030 will occupy the 3030 port on your host which might not be preferred, in fact it is not recommended. This route has been taken to save explanation steps. Please read the docker documentation if you wish to change this.*
+
 #### Start the container and keep control
 The command above starts the container in deamon mode (-d) and runs in the background. If you want to start it by yourself just to see what happens use this command:
 
