@@ -3,7 +3,7 @@ dashing-docker
 
 ## Description
 
-The dashing-docker project is a docker image building project that can run any dashing project in a dashing container. The particular dashing project as well as startup procedure can be maintained outside of the container.
+The dashing-docker project is a docker image building project that can run any dashing project in a docker container. The particular dashing project as well as startup procedure can be maintained outside of the container.
 
 
 
