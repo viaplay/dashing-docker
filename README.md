@@ -18,7 +18,7 @@ The sole purpose of this approach is to streamline the setup on the running serv
 
 Clone this project if you want to run the dashing sample provided within. You can then chose to use the pre made docker image or build it yourself from the Dockerfile. 
 
-*The sample is provided by dashing itself.*
+*The sample is provided by dashing itself and included in this project for easy learning. Read more here: http://shopify.github.io/dashing/*
 
 
 ### Use the pre built image
@@ -79,7 +79,7 @@ You can also completely change the volume mapping but you have to change the sta
 
 ## Use the docker image for development
 
-If you feel ready to use the docker image for development you have to change `:ro` to `:rw` before starting it. 
+If you feel ready to use the docker image for development you have to change `:ro` to `:rw` before starting it. This is in fact the way we made the sample dashing project. `dashing new dashboard`
 
 	$ sudo docker run -i -t -p 3030:3030 -v `pwd`/dashboard:/dashboard:rw viaplay/dashing bash
 
