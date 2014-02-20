@@ -10,7 +10,7 @@ The dashing-docker project is a docker image building project that can run any d
 
 ### Purpose
 
-The sole purpose of this approach is to streamline the setup on the running server. Build and test locally in any way you feel comfortable with and use this docker image on the server. Altough docker, not yet, is suitable for production a dashing project often is used behind a firewall locally in the office.
+The sole purpose of this approach is to streamline the setup on the running server. Build and test locally in any way you feel comfortable with and use this docker image on the server. Although docker, not yet, is suitable for production a dashing project often is used behind a firewall locally in the office.
 
 
 
